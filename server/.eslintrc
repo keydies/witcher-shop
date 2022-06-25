@@ -1,0 +1,22 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"extends": ["plugin:@typescript-eslint/recommended"],
+	"parserOptions": { "ecmaVersion": 2018, "sourceType": "module" },
+	"rules": {
+		"no-console": "warn",
+		"prefer-const": "warn",
+		"quotes": ["warn", "single"],
+		"max-len": ["warn", { "code": 120 }],
+		"comma-dangle": [
+			"warn",
+			{
+				"arrays": "never",
+				"objects": "never",
+				"imports": "never",
+				"exports": "never",
+				"functions": "never"
+			}
+		],
+		"semi": ["warn", "always"]
+	}
+}
