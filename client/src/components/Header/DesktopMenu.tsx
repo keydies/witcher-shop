@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export function DesktopMenu() {
+export function DesktopMenu(): JSX.Element {
 	return (
 		<ul className='desktop-menu'>
 			<Link to='/home/clothes' className='desktop-menu__link'>

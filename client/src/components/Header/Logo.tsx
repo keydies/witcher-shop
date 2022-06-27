@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+
 import '../../scss/Header.scss';
 
 const headerLogo = require('../../assets/logo.png');
 
-export function Logo() {
+export function Logo(): JSX.Element {
 	return (
 		<Link to='/home' className='logo'>
 			<div className='logo__inner'>

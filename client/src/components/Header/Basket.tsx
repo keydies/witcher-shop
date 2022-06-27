@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export default function Basket() {
+export function Basket(): JSX.Element {
 	return (
 		<Link to='/home/basket' className='basket'>
 			<svg

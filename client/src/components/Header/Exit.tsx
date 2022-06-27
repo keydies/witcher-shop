@@ -1,4 +1,4 @@
-export function Exit() {
+export function Exit(): JSX.Element {
 	return (
 		<button className='exit'>
 			<svg

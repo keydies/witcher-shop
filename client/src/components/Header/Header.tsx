@@ -1,12 +1,12 @@
-import { DesktopMenu } from './DesktopMenu';
 import { Logo } from './Logo';
-
-import '../../scss/Header.scss';
-import Basket from './Basket';
+import { DesktopMenu } from './DesktopMenu';
+import { Basket } from './Basket';
 import { Favorites } from './Favorites';
 import { Exit } from './Exit';
 
-export function Header() {
+import '../../scss/Header.scss';
+
+export function Header(): JSX.Element {
 	return (
 		<header className='header'>
 			<div className='container'>

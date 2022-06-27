@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export function Favorites() {
+export function Favorites(): JSX.Element {
 	return (
 		<Link to='/home/favorites' className='favorites'>
 			<svg
