@@ -2,7 +2,7 @@
 @import 'vars';
 
 .header {
-	background: $white;
+	background: $black;
 	@include shadow(0);
 	&__inner {
 		display: flex;
@@ -11,7 +11,7 @@
 	}
 	&__wall {
 		height: 30px;
-		border-right: 1px solid $purple;
+		border-right: 1px solid $white;
 		margin-left: 5px;
 	}
 	&__nav {
@@ -29,11 +29,12 @@
 		.favorites:hover,
 		.exit:hover {
 			cursor: pointer;
-			background: rgba(241, 231, 254, 1);
+			background: $red;
 			transition: all 0.3s;
 			border-radius: 5px;
 		}
-		.favorites {
+		.favorites,
+		.basket {
 			margin-top: 7px;
 		}
 		.exit {
@@ -52,7 +53,17 @@
 	&__title {
 		font-family: 'Smooch', cursive;
 		font-size: 34px;
-		color: $purple;
+		color: $white;
+		&:hover {
+			color: $red;
+			transition: all 0.3s;
+		}
+	}
+	&__image img {
+		width: 65px;
+		height: 65px;
+		margin-right: 5px;
+		padding-top: 5px;
 	}
 }
 
@@ -68,13 +79,13 @@
 		text-decoration: none;
 		padding: 10px 15px;
 		font-size: 20px;
-		color: $purple;
+		color: $white;
 		letter-spacing: 1px;
 		position: relative;
 	}
 	&__link:hover {
 		cursor: pointer;
-		background: rgba(241, 231, 254, 1);
+		background: $red;
 		transition: all 0.3s;
 		border-radius: 5px;
 	}

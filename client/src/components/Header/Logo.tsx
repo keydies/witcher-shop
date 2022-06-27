@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import '../../scss/Header.scss';
 
-const headerLogo = require('../../assets/logo.png');
+const headerLogo = require('../../assets/logo-dark.jpg');
 
 export function Logo(): JSX.Element {
 	return (

@@ -10,7 +10,7 @@ export function Exit(): JSX.Element {
 				<g
 					fill='none'
 					fillRule='evenodd'
-					stroke='#ba55d3'
+					stroke='#d8d8d8'
 					strokeWidth='1.1'
 					strokeLinecap='round'
 					strokeLinejoin='round'

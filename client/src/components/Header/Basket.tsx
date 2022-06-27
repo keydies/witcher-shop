@@ -8,7 +8,7 @@ export function Basket(): JSX.Element {
 				viewBox='0 0 1024 1024'
 				width='30'
 				height='30'
-				fill='#ba55d3'
+				fill='#d8d8d8'
 			>
 				<path
 					d={`M1015.66 284a31.82 31.82 0 0 

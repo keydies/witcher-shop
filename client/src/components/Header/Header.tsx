@@ -5,7 +5,7 @@ import { Favorites } from './Favorites';
 import { Exit } from './Exit';
 
 import '../../scss/Header.scss';
-
+//TODO: add adaptive layout
 export function Header(): JSX.Element {
 	return (
 		<header className='header'>
