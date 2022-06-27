@@ -1,0 +1,16 @@
+//fonts
+$main-font: 'Heebo', sans-serif;
+
+//colors
+$white: #fffafa;
+$purple: #ba55d3;
+
+//mixins
+
+//box-shadow for any elements with dynamic border-radius
+@mixin shadow($br) {
+	border: 1px solid rgba(0, 0, 0, 0.02);
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	border-radius: $br;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import 'vars';
+
+.header {
+	background: $white;
+	@include shadow(0);
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__wall {
+		height: 30px;
+		border-right: 1px solid $purple;
+		margin-left: 5px;
+	}
+	&__nav {
+		display: flex;
+		align-items: center;
+		.basket,
+		.favorites,
+		.exit {
+			border: none;
+			background: none;
+			margin: 0 5px;
+			padding: 5px 7px;
+		}
+		.basket:hover,
+		.favorites:hover,
+		.exit:hover {
+			cursor: pointer;
+			background: rgba(241, 231, 254, 1);
+			transition: all 0.3s;
+			border-radius: 5px;
+		}
+		.favorites {
+			margin-top: 7px;
+		}
+		.exit {
+			margin-top: 7px;
+			margin-left: 0;
+		}
+	}
+}
+
+.logo {
+	text-decoration: none;
+	&__inner {
+		display: flex;
+		align-items: center;
+	}
+	&__title {
+		font-family: 'Smooch', cursive;
+		font-size: 34px;
+		color: $purple;
+	}
+}
+
+.desktop-menu {
+	display: flex;
+	list-style: none;
+	font-family: $main-font;
+	&__item {
+		display: flex;
+		align-items: center;
+	}
+	&__link {
+		text-decoration: none;
+		padding: 10px 15px;
+		font-size: 20px;
+		color: $purple;
+		letter-spacing: 1px;
+		position: relative;
+	}
+	&__link:hover {
+		cursor: pointer;
+		background: rgba(241, 231, 254, 1);
+		transition: all 0.3s;
+		border-radius: 5px;
+	}
+}
