@@ -13,7 +13,7 @@ export function Header(): JSX.Element {
 				<div className='header__inner'>
 					<Logo />
 					<div className='header__nav'>
-						<DesktopMenu />
+						<DesktopMenu/>
 						<span className='header__wall'></span>
 						<Basket />
 						<Favorites />

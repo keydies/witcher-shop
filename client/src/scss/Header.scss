@@ -11,7 +11,7 @@
 	}
 	&__wall {
 		height: 30px;
-		border-right: 1px solid $white;
+		border-right: 2px solid $white;
 		margin-left: 5px;
 	}
 	&__nav {
@@ -33,12 +33,7 @@
 			transition: all 0.3s;
 			border-radius: 5px;
 		}
-		.favorites,
-		.basket {
-			margin-top: 9px;
-		}
 		.exit {
-			margin-top: 7px;
 			margin-left: 0;
 		}
 	}
