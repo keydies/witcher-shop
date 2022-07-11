@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-
 import '../../scss/Header.scss';
+
+import { Link } from 'react-router-dom';
 
 const headerLogo = require('../../assets/logo-dark.jpg');
 

@@ -1,5 +1,10 @@
 {
 	"extends": ["react-app", "react-app/jest"],
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"env": { "es6": true },
+	"plugins": ["simple-import-sort", "import"],
 	"rules": {
 		"no-console": "warn",
 		"prefer-const": "warn",
@@ -16,6 +21,11 @@
 				"functions": "never"
 			}
 		],
-		"semi": ["warn", "always"]
+		"semi": ["warn", "always"],
+		"simple-import-sort/imports": "warn",
+		"simple-import-sort/exports": "warn",
+		"import/first": "warn",
+		"import/newline-after-import": "warn",
+		"import/no-duplicates": "warn"
 	}
 }

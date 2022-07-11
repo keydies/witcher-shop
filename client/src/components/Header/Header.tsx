@@ -1,10 +1,10 @@
-import { Logo } from './Logo';
-import { DesktopMenu } from './DesktopMenu';
-import { Basket } from './Basket';
-import { Favorites } from './Favorites';
-import { Exit } from './Exit';
-
 import '../../scss/Header.scss';
+
+import { Basket } from './Basket';
+import { DesktopMenu } from './DesktopMenu';
+import { Exit } from './Exit';
+import { Favorites } from './Favorites';
+import { Logo } from './Logo';
 //TODO: add adaptive layout
 export function Header(): JSX.Element {
 	return (
@@ -13,7 +13,7 @@ export function Header(): JSX.Element {
 				<div className='header__inner'>
 					<Logo />
 					<div className='header__nav'>
-						<DesktopMenu/>
+						<DesktopMenu />
 						<span className='header__wall'></span>
 						<Basket />
 						<Favorites />
