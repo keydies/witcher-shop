@@ -12,7 +12,7 @@ export function Input({
 	placeholder,
 	labelText,
 	inputType
-}: IInputProps) {
+}: IInputProps): JSX.Element {
 	return (
 		<div className={parentClassName}>
 			<label
