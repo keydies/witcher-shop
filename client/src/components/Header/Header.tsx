@@ -5,7 +5,7 @@ import { DesktopMenu } from './DesktopMenu';
 import { Exit } from './Exit';
 import { Favorites } from './Favorites';
 import { Logo } from './Logo';
-//TODO: add adaptive layout
+
 export function Header(): JSX.Element {
 	return (
 		<header className='header'>
