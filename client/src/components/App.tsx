@@ -2,10 +2,12 @@ import '../scss/App.scss';
 
 import { Fragment } from 'react';
 
-import { Auth } from '../pages/Auth';
-import { Home } from '../pages/Home';
+import { Header } from './Header/Header';
 
 export function App(): JSX.Element {
-	const isAuth = false;
-	return <Fragment>{isAuth ? <Home /> : <Auth />}</Fragment>;
+	return (
+		<Fragment>
+			<Header />
+		</Fragment>
+	);
 }
