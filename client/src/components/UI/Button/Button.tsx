@@ -1,4 +1,4 @@
-import './Button.module.scss';
+import './Button.scss';
 
 interface IButtonProps {
 	parentBlockClassName: string;

@@ -1,4 +1,4 @@
-import './Input.module.scss';
+import './Input.scss';
 
 interface IInputProps {
 	parentBlockClassName: string;
