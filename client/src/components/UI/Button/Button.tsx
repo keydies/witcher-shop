@@ -5,7 +5,10 @@ interface IButtonProps {
 	buttonText: string;
 }
 
-export function Button({ parentBlockClassName, buttonText }: IButtonProps) {
+export function Button({
+	parentBlockClassName,
+	buttonText
+}: IButtonProps): JSX.Element {
 	return (
 		<div className={parentBlockClassName}>
 			<button className={`${parentBlockClassName}__button`}>
