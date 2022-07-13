@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"description": "Server side for Witcher Shop",
 	"main": "index.js",
-	"author": "Serhii Schastlivtsev | serkeydies@gmail.com | https://github.com/keydies",
+	"author": "Serhii Schastlivtsev <serkeydies@gmail.com>",
+	"repository": "https://github.com/keydies/witcher-shop",
 	"scripts": {
 		"start:ts": "tsc -w",
 		"start:js": "nodemon build/index.js",
