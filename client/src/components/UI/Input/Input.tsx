@@ -1,29 +1,29 @@
 import './Input.module.scss';
 
 interface IInputProps {
-	parentClassName: string;
+	parentBlockClassName: string;
 	placeholder: string;
 	labelText: string;
 	inputType: string;
 }
 
 export function Input({
-	parentClassName,
+	parentBlockClassName,
 	placeholder,
 	labelText,
 	inputType
 }: IInputProps): JSX.Element {
 	return (
-		<div className={parentClassName}>
+		<div className={parentBlockClassName}>
 			<label
-				className={`${parentClassName}__title`}
-				htmlFor={`${parentClassName}__field`}
+				className={`${parentBlockClassName}__title`}
+				htmlFor={`${parentBlockClassName}__field`}
 			>
 				{labelText}
 			</label>
 			<input
-				className={`${parentClassName}__field`}
-				id={`${parentClassName}__field`}
+				className={`${parentBlockClassName}__field`}
+				id={`${parentBlockClassName}__field`}
 				type={inputType}
 				placeholder={placeholder}
 			/>
